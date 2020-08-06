@@ -9,7 +9,7 @@ package modelo;
  *
  * @author Nap
  */
-public class Sugerencia {
+public class Solicitud {
 
     private int idsugerencia;
     private String nombre_cliente;
@@ -18,11 +18,11 @@ public class Sugerencia {
     private String descripcion;
 
    
-       public Sugerencia(){
+       public Solicitud(){
         
     }
     
-    public Sugerencia(int idsugerencia,String nombre_cliente, String dni, String telefono, String descripcion){
+    public Solicitud(int idsugerencia,String nombre_cliente, String dni, String telefono, String descripcion){
        this.idsugerencia=idsugerencia;
         this.nombre_cliente = nombre_cliente;
         this.dni = dni;
